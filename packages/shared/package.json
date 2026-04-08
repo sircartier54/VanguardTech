@@ -1,0 +1,9 @@
+{
+  "name": "@repo-pulse/shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared types and constants for RepoPulse",
+  "main": "index.ts",
+  "type": "module",
+  "license": "ISC"
+}

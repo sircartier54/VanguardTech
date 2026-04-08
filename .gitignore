@@ -1,0 +1,38 @@
+# --- Dependencies ---
+node_modules/
+.pnpm-store/
+.pnpm-debug.log
+
+# --- Environment Secrets (CRITICAL) ---
+.env
+*.env
+.env.local
+.env.*.local
+
+# --- AnalogJS / Angular / Vite Outputs ---
+dist/
+.analog/
+.nitro/
+bin/
+out-tsc/
+bazel-out/
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+Thumbs.db
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- TypeScript ---
+*.tsbuildinfo

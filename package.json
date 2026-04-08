@@ -1,0 +1,12 @@
+{
+  "name": "vanguard-tech",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "scrape": "pnpm --filter scripts start",
+    "install:all": "pnpm install"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
