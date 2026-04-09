@@ -8,4 +8,4 @@ export interface TechRepo {
   url: string;
   slug: string;
 }
-export const PROJECT_NAME = "RepoPulse";
+export const PROJECT_NAME = "VanguardTech";
